@@ -263,7 +263,7 @@ function Nav({ scrolled }) {
   const [open, setOpen] = useState(false);
   const go = id => { document.querySelector(id)?.scrollIntoView({behavior:"smooth"});setOpen(false); };
   const links = [["Services","#services"],["Pricing","#pricing"],["Process","#process"],["Reviews","#reviews"]];
-:
+
   return (
     <>
       <nav style={{
